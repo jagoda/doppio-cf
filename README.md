@@ -6,8 +6,12 @@ underlying server instance when running in a Cloud Foundry environment.
 
 ## Usage
 
+First install the packages:
+
     npm install doppio
     npm install doppio-cf
+
+Then load the plugin:
 
     var doppio = require("doppio"),
         server;
